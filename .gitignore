@@ -1,0 +1,31 @@
+# TensorFlow graph data files
+bottleneck_data/
+tensorboard_logs/
+imagenet/
+retrain_logs/
+yolo-coco/
+
+# to do:analyze for exclusion from git
+model/
+*.pb
+
+
+
+output_graph.pb
+output_labels.txt
+
+training_images/
+
+test_images/
+
+#retrained_graph.pb
+#retrained_labels.txt
+*.png
+*.jpg
+*.gif
+*.mp4
+*.pyc
+venv/
+__pychache__/
+.idea/
+.vscode/
